@@ -8768,7 +8768,7 @@ a.bg-dark:hover,a.bg-dark:focus,button.bg-dark:hover,button.bg-dark:focus {
     }
 
     .pl-lg-4,.px-lg-4 {
-        padding-left: 1.5rem !important
+        padding-left: 2.5rem !important
     }
 
     .p-lg-5 {
@@ -9832,4 +9832,18 @@ h5,h6,.font-weight-normal {
 
 .azul{
     color:#04338A;
+}
+
+.image-link img {
+    width: 150px;             /* Ancho de la imagen */
+    height: auto;             /* Alto automático para mantener la proporción */
+    transition: transform 0.3s; /* Efecto de transición */
+}
+
+.image-link img:hover {
+    transform: scale(1.1);    /* Aumenta el tamaño de la imagen al pasar el ratón */
+}
+
+.navbar-background {
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo negro con 70% de opacidad */
 }
