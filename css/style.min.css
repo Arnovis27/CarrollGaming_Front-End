@@ -4000,7 +4000,8 @@ input[type="submit"].btn-block,input[type="reset"].btn-block,input[type="button"
     margin-right: 1rem;
     font-size: 1.25rem;
     line-height: inherit;
-    white-space: nowrap
+    white-space: nowrap;
+    margin-right: 20px;
 }
 
 .navbar-brand:hover,.navbar-brand:focus {
@@ -4012,7 +4013,8 @@ input[type="submit"].btn-block,input[type="reset"].btn-block,input[type="button"
     flex-direction: column;
     padding-left: 0;
     margin-bottom: 0;
-    list-style: none
+    list-style: none;
+    margin-right: 200px;
 }
 
 .navbar-nav .nav-link {
@@ -7667,7 +7669,7 @@ a.bg-dark:hover,a.bg-dark:focus,button.bg-dark:hover,button.bg-dark:focus {
 }
 
 .p-4 {
-    padding: 1.5rem !important
+    padding: 0.8rem !important
 }
 
 .pt-4,.py-4 {
@@ -8768,7 +8770,7 @@ a.bg-dark:hover,a.bg-dark:focus,button.bg-dark:hover,button.bg-dark:focus {
     }
 
     .pl-lg-4,.px-lg-4 {
-        padding-left: 2.5rem !important
+        padding-left: 16.5rem !important
     }
 
     .p-lg-5 {
