@@ -9735,6 +9735,12 @@ h5,h6,.font-weight-normal {
     background: #66BBE8;
 }
 
+.section-title2 {
+    position: relative;
+    padding: 15px 0 35px 0;
+    text-align: center
+}
+
 .service-icon {
     margin-right: 15px;
     width: 45px;
