@@ -9686,7 +9686,8 @@ h5,h6,.font-weight-normal {
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,.navbar-dark .navbar-nav .nav-link.active {
-    color: #66BBE8;
+    background-color: #66BBE8;
+    border-radius: 25px;
 }
 
 .overlay-top::before,.overlay-bottom::after {
