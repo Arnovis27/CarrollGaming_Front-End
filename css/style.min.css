@@ -2450,32 +2450,32 @@ a.btn.disabled,fieldset:disabled a.btn {
 }
 
 .btn-primary:focus,.btn-primary.focus {
-    color: #212529;
-    background-color: #d38d3c;
-    border-color: #d18731;
-    box-shadow: 0 0 0 .2rem rgba(190,141,84,0.5)
+    color: white;
+    background-color: black;
+    border-color: white;
+    box-shadow: 0 0 0 .2rem rgb(0, 0, 0)
 }
 
 .btn-primary.disabled,.btn-primary:disabled {
-    color: #212529;
-    background-color: #DA9F5B;
-    border-color: #DA9F5B
+    color: white;
+    background-color: black;
+    border-color: white;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active,.btn-primary:not(:disabled):not(.disabled).active,.show>.btn-primary.dropdown-toggle {
-    color: #fff;
-    background-color: #d18731;
-    border-color: #c8802d
+    color: white;
+    background-color: black;
+    border-color: white;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus,.btn-primary:not(:disabled):not(.disabled).active:focus,.show>.btn-primary.dropdown-toggle:focus {
-    box-shadow: 0 0 0 .2rem rgba(190,141,84,0.5)
+    box-shadow: 0 0 0 .2rem rgb(0, 0, 0)
 }
 
 .btn-secondary {
     color: #fff;
-    background-color: black;
-    border-color: #33211D
+    background-color: #04338A;
+    border-color: #04338A;
 }
 
 .btn-secondary:hover {
@@ -9869,4 +9869,10 @@ h5,h6,.font-weight-normal {
 
 .wide{
     font-size: 2.8rem;
+}
+
+.btn-secondary:hover{
+    color: black;
+    background-color: #66BBE8;
+    border-color: #fff;
 }
