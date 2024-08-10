@@ -9852,7 +9852,9 @@ h5,h6,.font-weight-normal {
 .azul{
     color:#04338A;
 }
-
+.azulclaro{
+    color:#66BBE8;
+}
 .image-link img {
     width: 150px;             /* Ancho de la imagen */
     height: auto;             /* Alto automático para mantener la proporción */
@@ -9877,6 +9879,8 @@ h5,h6,.font-weight-normal {
     border-color: #fff;
 }
 
+
 .h10{
     font-size: 45px;
+    padding-bottom: 30px;
 }
