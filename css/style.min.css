@@ -58,7 +58,7 @@ body {
     line-height: 1.5;
     color: #555;
     text-align: left;
-    background-color: #FEFEFE
+    background-color: #010715
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -5862,7 +5862,7 @@ a.close.disabled {
     width: 100%;
     margin-right: -100%;
     backface-visibility: hidden;
-    transition: transform .6s ease-in-out
+    transition: transform .3s ease-in-out
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -5897,7 +5897,7 @@ a.close.disabled {
 .carousel-fade .active.carousel-item-left,.carousel-fade .active.carousel-item-right {
     z-index: 0;
     opacity: 0;
-    transition: opacity 0s .6s
+    transition: opacity 0s .3s
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -9751,7 +9751,7 @@ h5,h6,.font-weight-normal {
     justify-content: center;
     border-radius: 45px;
     color: #FEFEFE;
-    background: black;
+    background: #003392;
 }
 
 .menu-price {
@@ -9781,13 +9781,13 @@ h5,h6,.font-weight-normal {
     width: 20px;
     height: 20px;
     border-radius: 20px;
-    background: #66BBE8;
+    background: #003392;
     transition: .5s
 }
 
 .testimonial-carousel .owl-dot.active {
     width: 40px;
-    background: black;
+    background: #66bbe8;
 }
 
 .testimonial-carousel .owl-item img {
@@ -9883,4 +9883,8 @@ h5,h6,.font-weight-normal {
 .h10{
     font-size: 45px;
     padding-bottom: 30px;
+}
+
+.parrafo{
+    color: #ffffffb5;
 }
