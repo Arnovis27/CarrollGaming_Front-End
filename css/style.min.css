@@ -9726,7 +9726,7 @@ h5,h6,.font-weight-normal {
 
 .section-title::after {
     position: absolute;
-    content: "";
+    /* content: "";*/
     width: 2px;
     height: 100px;
     top: 0;
@@ -9888,3 +9888,4 @@ h5,h6,.font-weight-normal {
 .parrafo{
     color: #ffffffb5;
 }
+
